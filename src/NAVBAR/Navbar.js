@@ -104,11 +104,11 @@ function Navbar (){
                 <ul className={click? 'nav-menu active':'nav-menu'}>
                 
                 <li className='nav-item'>
-                    <Link to ='/sign-in' className='nav-links-mobile' onClick={closeMenu}>Sign in</Link>
+                    <Link to ='/Sign-in' className='nav-links-mobile' onClick={closeMenu}>Sign in</Link>
                 </li>
                 
                 <li className='nav-item'>
-                    <Link to ='/sign-up' className='nav-links-mobile' onClick={closeMenu}>Sign Up</Link>
+                    <Link to ='/Sign-up' className='nav-links-mobile' onClick={closeMenu}>Sign Up</Link>
                 </li>
                 </ul>
                 <RenderMenu/>

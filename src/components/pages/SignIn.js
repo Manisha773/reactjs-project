@@ -42,7 +42,7 @@ const SignIn = ()=> {
                 <div className='form-content-right'>
                 
                 
-                    <form action='/signin' method='POST' onSubmit={handleSubmit} className='form' noValidate>
+                    <form method='POST' onSubmit={handleSubmit} className='form' noValidate>
                         <div className='form-inputs'>
                             <label className='form-label'>Email</label>
                             <input className='form-input' type='email' name='email' 
@@ -65,7 +65,7 @@ const SignIn = ()=> {
                         <button className='form-input-btn'  onSubmit={handleSubmit}>Sign In </button>
                         
                         <span className='form-input-login'>
-                            Not Registered? SignUp <a href='/sign-up'>here</a>
+                            Not Registered? SignUp <a href='/Sign-up'>here</a>
                         </span>
                     </form>
                 

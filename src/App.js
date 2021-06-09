@@ -32,10 +32,10 @@ function App() {
         <Route path='/profile' exact component={Profile}/>
         <Route path='/profile/myprofile' exact component={MyResume}/>
         {/* <Route path='/beginner/userForm' exact component={UserForm}/> */}
-        <Route path='/sign-in' exact component={SignIn}/>
+        <Route path='/Sign-in' exact component={SignIn}/>
         <Route path='/forgotpassword' exact component={ForgotPassword}/>
         <Route path='/SigninF' exact component={SigninF}/>
-        <Route path='/sign-up' exact component={SignUp}/>
+        <Route path='/Sign-up' exact component={SignUp}/>
         <Route path='/viewresume' exact component={LargeResume}/>
         <Route path='/editresume' exact component={EditResume}/>
       </Switch>
